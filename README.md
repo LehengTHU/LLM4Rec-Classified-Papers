@@ -6,6 +6,21 @@
 
 This repository maintains the latest paper list of large language model (LLM) for recommendation.
 
+<p id="Catalogue"></p>  
+
+## Catalogue 
+- [Catalogue](#catalogue)
+- [Survey](#survey)
+- [Freezed LLM](#freezed-llm)
+- [Interpretation with LLM](#interpretation-with-llm)
+- [Agent for Recommendation](#agent-for-recommendation)
+  - [User Side](#user-side)
+  - [Recommender Side](#recommender-side)
+- [General](#general)
+
+
+<p id="Survey"></p>  
+
 ## Survey
 
 | Source | Name | Title                                                         | Group                 | Citation |
@@ -15,6 +30,9 @@ This repository maintains the latest paper list of large language model (LLM) fo
 | arxiv | 202307 | [When Large Language Models Meet Personalization: Perspectives of Challenges and Opportunities](https://arxiv.org/pdf/2307.16376.pdf) |  Enhong Chen           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F7d46a13a1edd02dd6ae2b9f713e6f91ea001dfb4%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/When-Large-Language-Models-Meet-Personalization%3A-of-Chen-Liu/7d46a13a1edd02dd6ae2b9f713e6f91ea001dfb4) |
 | arxiv | 202307 | [Recommender Systems in the Era of Large Language Models (LLMs)](https://arxiv.org/pdf/2307.02046.pdf) |     Qing Li  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fa35f1315e91513ff0bec0c488fe175214fd9636c%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Recommender-Systems-in-the-Era-of-Large-Language-Fan-Zhao/a35f1315e91513ff0bec0c488fe175214fd9636c) |
 | arxiv | 202309 | [Large Language Models for Generative Recommendation: A Survey and Visionary Discussions](https://arxiv.org/pdf/2309.01157.pdf) |  Yongfeng Zhang  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fa1081c6fc6921d6b76d9ebda4d712333fd7bbbf5%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Large-Language-Models-for-Generative-A-Survey-and-Li-Zhang/a1081c6fc6921d6b76d9ebda4d712333fd7bbbf5) |
+
+
+<p id="Freezed-LLM"></p>  
 
 ## Freezed LLM
 
@@ -26,18 +44,34 @@ This repository maintains the latest paper list of large language model (LLM) fo
 | arxiv 202304 | N/A | [Is ChatGPT a Good Recommender? A Preliminary Study](https://arxiv.org/pdf/2304.10149.pdf) | Alibaba                  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fca7bd64d372e3bcb3f4633ca4a20291ff57de3c3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Is-ChatGPT-a-Good-Recommender-A-Preliminary-Study-Liu-Liu/ca7bd64d372e3bcb3f4633ca4a20291ff57de3c3) |
 | arxiv 202303 | Chat-REC | [Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System](https://arxiv.org/pdf/2303.14524.pdf) |  Enhong Chen           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F0cfdd655100055f234fd23ebecd915504b8e00e3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Chat-REC%3A-Towards-Interactive-and-Explainable-Gao-Sheng/0cfdd655100055f234fd23ebecd915504b8e00e3) |
 
+<p id="Interpretation-with-LLM"></p>
+
+## Interpretation with LLM
+
+| Source | Name | Title                                                         | Group                 | Citation |
+| ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
+| arxiv 202310 | RecInterpreter | [Large Language Model Can Interpret Latent Space of Sequential Recommender](https://arxiv.org/pdf/2310.20487.pdf) | Xiangnan He                  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F984583e8380fc8af8e20f32ed6ad9d7bc4888c6c%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Large-Language-Model-Can-Interpret-Latent-Space-of-Yang-Wu/984583e8380fc8af8e20f32ed6ad9d7bc4888c6c) |
+| TOIS 2023 | PEPLER | [Personalized prompt learning for explainable recommendation](https://arxiv.org/pdf/2202.07371.pdf) |  Yongfeng Zhang           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F8498daeeb893870524ffaa63086f8528795003d4%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Personalized-Prompt-Learning-for-Explainable-Li-Zhang/8498daeeb893870524ffaa63086f8528795003d4) |
 
 
+<p id="Agent-for-Recommendation"></p>
 
 ## Agent for Recommendation
+
+<p id="User-Side"></p>
+
 ### User Side
+
 | Source | Name | Title                                                         | Group                 | Citation |
 | ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
 | arxiv 202310 | Agent4Rec | [On Generative Agents in Recommendation](https://arxiv.org/pdf/2310.10108.pdf) | Xiang Wang                  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F489a31c4b5d09d7bd3788962f7dd20671f557000%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/On-Generative-Agents-in-Recommendation-Zhang-Sheng/489a31c4b5d09d7bd3788962f7dd20671f557000) |
 | arxiv 202306 | RecAgent | [When Large Language Model based Agent Meets User Behavior Analysis: A Novel User Simulation Paradigm](https://arxiv.org/pdf/2306.02552.pdf) |  Xu Chen           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F773d8eb9715847f279cc55386080208d1e84cdc5%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/When-Large-Language-Model-based-Agent-Meets-User-A-Wang-Zhang/773d8eb9715847f279cc55386080208d1e84cdc5) |
 
 
+<p id="Recommender-Side"></p>
+
 ### Recommender Side
+
 | Source | Name | Title                                                         | Group                 | Citation |
 | ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
 | arxiv 202310 | AgentCF | [AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/pdf/2310.09233.pdf) | Xin Zhao & Ji-rong Wen                 | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F44576a2c6337f41019f29b055d8c7f7f5891be92%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/AgentCF%3A-Collaborative-Learning-with-Autonomous-for-Zhang-Hou/44576a2c6337f41019f29b055d8c7f7f5891be92) |
@@ -45,7 +79,10 @@ This repository maintains the latest paper list of large language model (LLM) fo
 | arxiv 202308 | InteRecAgent | [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://arxiv.org/pdf/2308.16505.pdf) | Microsoft Xing Xie                 | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fc237a22698223e4060d83027f399f4fb2aa24291%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Recommender-AI-Agent%3A-Integrating-Large-Language-Huang-Lian/c237a22698223e4060d83027f399f4fb2aa24291) |
 
 
+<p id="General"></p>
+
 ## General
+
 | Source | Name | Title                                                         | Group                 | Citation |
 | ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
 | WSDM 2024 | LLMRec | [LLMRec: Large Language Models with Graph Augmentation for Recommendation](https://arxiv.org/pdf/2311.00423.pdf) | Chao Huang                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F5aa3b1009955ce2c8f896e0d5e94e06155ef1e43%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/LLMRec%3A-Large-Language-Models-with-Graph-for-Wei-Ren/5aa3b1009955ce2c8f896e0d5e94e06155ef1e43) |
