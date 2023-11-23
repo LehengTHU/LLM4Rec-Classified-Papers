@@ -11,13 +11,15 @@ This repository maintains the latest paper list of large language model (LLM) fo
 ## Catalogue 
 - [Catalogue](#catalogue)
 - [Survey](#survey)
-- [Freezed LLM](#freezed-llm)
 - [Interpretation with LLM](#interpretation-with-llm)
 - [Agent for Recommendation](#agent-for-recommendation)
   - [User Side](#user-side)
   - [Recommender Side](#recommender-side)
-- [Grouding](#grouding)
-- [General](#general)
+- [LLM as Recommender](#llm-as-recommender)
+  - [ChatGPT4Rec (Early Explorations)](#chatgpt4rec-early-explorations)
+  - [Grouding](#grouding)
+  - [Industrial Application](#industrial-application)
+  - [General](#general)
 
 
 <p id="Survey"></p>  
@@ -31,19 +33,6 @@ This repository maintains the latest paper list of large language model (LLM) fo
 | arxiv | 202307 | [Recommender Systems in the Era of Large Language Models (LLMs)](https://arxiv.org/pdf/2307.02046.pdf) |     Qing Li  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fa35f1315e91513ff0bec0c488fe175214fd9636c%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Recommender-Systems-in-the-Era-of-Large-Language-Fan-Zhao/a35f1315e91513ff0bec0c488fe175214fd9636c) |
 | arxiv | 202306 | [How Can Recommender Systems Benefit from Large Language Models: A Survey](https://arxiv.org/pdf/2306.05817.pdf)  |     Ruiming Tang             | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fbac54736112098616f0e1c90435888ef3e119d32%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/How-Can-Recommender-Systems-Benefit-from-Large-A-Lin-Dai/bac54736112098616f0e1c90435888ef3e119d32) |
 | arxiv | 202305 | [A Survey on Large Language Models for Recommendation](https://arxiv.org/pdf/2305.19860.pdf)  | Enhong Chen                  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fb486982fa7c68a8a08df1111ba9607119419c488%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/A-Survey-on-Large-Language-Models-for-Wu-Zheng/b486982fa7c68a8a08df1111ba9607119419c488) |
-
-
-<p id="Freezed-LLM"></p>  
-
-## Freezed LLM
-
-| Source | Name | Title                                                         | Group                 | Citation |
-| ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
-| RecSys 2023 | N/A | [Uncovering ChatGPT's Capabilities in Recommender Systems](https://arxiv.org/pdf/2305.02182.pdf) |     Chen Gao & Jun Xu             | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F450b5490cc653478c272be50aa986798df828a20%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Uncovering-ChatGPT%E2%80%99s-Capabilities-in-Recommender-Dai-Shao/450b5490cc653478c272be50aa986798df828a20) |
-| arxiv 202306 | N/A | [A Preliminary Study of ChatGPT on News Recommendation: Personalization, Provider Fairness, Fake News](https://arxiv.org/pdf/2306.10702.pdf) |  Yongfeng Zhang  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F17c36e4f1addd6ad3acd6e4bb7cc0e6156e5d790%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/A-Preliminary-Study-of-ChatGPT-on-News-Provider-Li-Zhang/17c36e4f1addd6ad3acd6e4bb7cc0e6156e5d790) |
-| arxiv 202305 | N/A | [Large Language Models are Zero-Shot Rankers for Recommender Systems](https://arxiv.org/pdf/2305.08845.pdf) |     Qing Li  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F4683d3d6cb31111cf4499a199c0b036662b3eb32%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Large-Language-Models-are-Zero-Shot-Rankers-for-Hou-Zhang/4683d3d6cb31111cf4499a199c0b036662b3eb32) |
-| arxiv 202304 | N/A | [Is ChatGPT a Good Recommender? A Preliminary Study](https://arxiv.org/pdf/2304.10149.pdf) | Alibaba                  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fca7bd64d372e3bcb3f4633ca4a20291ff57de3c3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Is-ChatGPT-a-Good-Recommender-A-Preliminary-Study-Liu-Liu/ca7bd64d372e3bcb3f4633ca4a20291ff57de3c3) |
-| arxiv 202303 | Chat-REC | [Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System](https://arxiv.org/pdf/2303.14524.pdf) |  Enhong Chen           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F0cfdd655100055f234fd23ebecd915504b8e00e3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Chat-REC%3A-Towards-Interactive-and-Explainable-Gao-Sheng/0cfdd655100055f234fd23ebecd915504b8e00e3) |
 
 <p id="Interpretation-with-LLM"></p>
 
@@ -81,16 +70,37 @@ This repository maintains the latest paper list of large language model (LLM) fo
 
 <p id="Grounding"></p>
 
-## Grouding
+
+
+<p id="General"></p>
+
+## LLM as Recommender
+
+<p id="Freezed-LLM"></p>  
+
+### ChatGPT4Rec (Early Explorations)
+
+| Source | Name | Title                                                         | Group                 | Citation |
+| ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
+| RecSys 2023 | N/A | [Uncovering ChatGPT's Capabilities in Recommender Systems](https://arxiv.org/pdf/2305.02182.pdf) |     Chen Gao & Jun Xu             | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F450b5490cc653478c272be50aa986798df828a20%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Uncovering-ChatGPT%E2%80%99s-Capabilities-in-Recommender-Dai-Shao/450b5490cc653478c272be50aa986798df828a20) |
+| arxiv 202306 | N/A | [A Preliminary Study of ChatGPT on News Recommendation: Personalization, Provider Fairness, Fake News](https://arxiv.org/pdf/2306.10702.pdf) |  Yongfeng Zhang  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F17c36e4f1addd6ad3acd6e4bb7cc0e6156e5d790%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/A-Preliminary-Study-of-ChatGPT-on-News-Provider-Li-Zhang/17c36e4f1addd6ad3acd6e4bb7cc0e6156e5d790) |
+| arxiv 202305 | N/A | [Large Language Models are Zero-Shot Rankers for Recommender Systems](https://arxiv.org/pdf/2305.08845.pdf) |     Qing Li  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F4683d3d6cb31111cf4499a199c0b036662b3eb32%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Large-Language-Models-are-Zero-Shot-Rankers-for-Hou-Zhang/4683d3d6cb31111cf4499a199c0b036662b3eb32) |
+| arxiv 202304 | N/A | [Is ChatGPT a Good Recommender? A Preliminary Study](https://arxiv.org/pdf/2304.10149.pdf) | Alibaba                  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fca7bd64d372e3bcb3f4633ca4a20291ff57de3c3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Is-ChatGPT-a-Good-Recommender-A-Preliminary-Study-Liu-Liu/ca7bd64d372e3bcb3f4633ca4a20291ff57de3c3) |
+| arxiv 202303 | Chat-REC | [Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System](https://arxiv.org/pdf/2303.14524.pdf) |  Enhong Chen           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F0cfdd655100055f234fd23ebecd915504b8e00e3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Chat-REC%3A-Towards-Interactive-and-Explainable-Gao-Sheng/0cfdd655100055f234fd23ebecd915504b8e00e3) |
+
+
+### Grouding
 | Source | Name | Title                                                         | Group                 | Citation |
 | ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
 | arxiv 202310 | TransRec | [A Multi-facet Paradigm to Bridge Large Language Model and Recommendation](https://arxiv.org/pdf/2310.06491v1.pdf) | Tat-Seng Chua                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F6887b37bab9bc67910e435c13d0ca545da4dd3ba%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/A-Multi-facet-Paradigm-to-Bridge-Large-Language-and-Lin-Wang/6887b37bab9bc67910e435c13d0ca545da4dd3ba) |
 | arxiv 202308 | BIGRec | [A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems](https://arxiv.org/pdf/2308.08434.pdf) | Xiangnan He                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Faae1d88c70cf18ef6aa23693a4dce8204e22d087%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/A-Bi-Step-Grounding-Paradigm-for-Large-Language-in-Bao-Zhang/aae1d88c70cf18ef6aa23693a4dce8204e22d087) |
 
-<p id="General"></p>
+### Industrial Application
+| Source | Name | Title                                                         | Group                 | Citation |
+| ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
+| arxiv 202308 | CTRL | [CTRL: Connect Collaborative and Language Model for CTR Prediction](https://arxiv.org/pdf/2306.02841.pdf) | Ruiming Tang                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F8120b21c146bd96d82add2b5af54f2673d9d437c%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/CTRL%3A-Connect-Collaborative-and-Language-Model-for-Li-Chen/8120b21c146bd96d82add2b5af54f2673d9d437c) |
 
-## General
-
+### General
 | Source | Name | Title                                                         | Group                 | Citation |
 | ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
 | WSDM 2024 | LLMRec | [LLMRec: Large Language Models with Graph Augmentation for Recommendation](https://arxiv.org/pdf/2311.00423.pdf) | Chao Huang                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F5aa3b1009955ce2c8f896e0d5e94e06155ef1e43%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/LLMRec%3A-Large-Language-Models-with-Graph-for-Wei-Ren/5aa3b1009955ce2c8f896e0d5e94e06155ef1e43) |
@@ -99,7 +109,6 @@ This repository maintains the latest paper list of large language model (LLM) fo
 | Gen-IR@ SIGIR2023 2023 | GPTRec | [Generative Sequential Recommendation with GPTRec](https://arxiv.org/pdf/2306.11114.pdf) |  Craig Macdonald                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Ff23496d38da8f149127ef013f1604e1057aa2779%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Generative-Sequential-Recommendation-with-GPTRec-Petrov-Macdonald/f23496d38da8f149127ef013f1604e1057aa2779) |
 | SIGIR-AP | IID | [How to Index Item IDs for Recommendation Foundation Models](https://arxiv.org/pdf/2305.06569.pdf) | Yongfeng Zhang                 | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fd219717aae02ee08ecc36cf015763bf03cbb84e0%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/How-to-Index-Item-IDs-for-Recommendation-Foundation-Hua-Xu/d219717aae02ee08ecc36cf015763bf03cbb84e0) |
 | arxiv 202311 | CLLM4Rec | [Collaborative Large Language Model for Recommender Systems](https://arxiv.org/pdf/2311.01343.pdf) |  LinkedIn               | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F6531e6b6b8e43901a804fe3f03dd941c4e781718%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Collaborative-Large-Language-Model-for-Recommender-Zhu-Wu/6531e6b6b8e43901a804fe3f03dd941c4e781718) |
-| arxiv 202308 | CTRL | [CTRL: Connect Collaborative and Language Model for CTR Prediction](https://arxiv.org/pdf/2306.02841.pdf) | Ruiming Tang                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F8120b21c146bd96d82add2b5af54f2673d9d437c%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/CTRL%3A-Connect-Collaborative-and-Language-Model-for-Li-Chen/8120b21c146bd96d82add2b5af54f2673d9d437c) |
 | arxiv 202306 | OpenP5 | [OpenP5: Benchmarking Foundation Models for Recommendation](https://arxiv.org/pdf/2306.11134.pdf) | Yongfeng Zhang                 | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F2e351be5d4323bdf40f2ff6029bacb9dc5c8cc8c%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/OpenP5%3A-Benchmarking-Foundation-Models-for-Xu-Hua/2e351be5d4323bdf40f2ff6029bacb9dc5c8cc8c) |
 | arxiv 202305 | PALR | [PALR: Personalization Aware LLMs for Recommendation](https://arxiv.org/pdf/2305.07622.pdf) | Amazon                 | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F60f8a7ac53585aa2c173219e97507d6d963864e7%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/PALR%3A-Personalization-Aware-LLMs-for-Recommendation-Chen-Jiang/60f8a7ac53585aa2c173219e97507d6d963864e7) |
 | arxiv 202305 | M6-Rec | [M6-Rec: Generative Pretrained Language Models are Open-Ended Recommender Systems](https://arxiv.org/pdf/2205.08084.pdf) | Alibaba                 | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fcbf3bf8f541f5b446c59c8deacbcc18527768c75%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/M6-Rec%3A-Generative-Pretrained-Language-Models-are-Cui-Ma/cbf3bf8f541f5b446c59c8deacbcc18527768c75) |
