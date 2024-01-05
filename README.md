@@ -17,7 +17,7 @@ This repository maintains the latest paper list of large language model (LLM) fo
   - [Recommender Side](#recommender-side)
 - [LLM as Recommender](#llm-as-recommender)
   - [ChatGPT4Rec (Early Explorations)](#chatgpt4rec-early-explorations)
-  - [Grouding](#grouding)
+  - [Full Rank](#full-rank)
   - [Industrial Application](#industrial-application)
   - [General](#general)
 
@@ -69,7 +69,7 @@ This repository maintains the latest paper list of large language model (LLM) fo
 | arxiv 202308 | RecMind | [RecMind: Large Language Model Powered Agent For Recommendation](https://arxiv.org/pdf/2308.14296.pdf) |  Amazon           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F26059f871eea2ef9aeeda228ebd40a69b61ab65c%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/RecMind%3A-Large-Language-Model-Powered-Agent-For-Wang-Jiang/26059f871eea2ef9aeeda228ebd40a69b61ab65c) |
 | arxiv 202308 | InteRecAgent | [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://arxiv.org/pdf/2308.16505.pdf) | Microsoft Xing Xie                 | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fc237a22698223e4060d83027f399f4fb2aa24291%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Recommender-AI-Agent%3A-Integrating-Large-Language-Huang-Lian/c237a22698223e4060d83027f399f4fb2aa24291) |
 
-<p id="Grounding"></p>
+
 
 
 
@@ -89,10 +89,12 @@ This repository maintains the latest paper list of large language model (LLM) fo
 | arxiv 202304 | N/A | [Is ChatGPT a Good Recommender? A Preliminary Study](https://arxiv.org/pdf/2304.10149.pdf) | Alibaba                  | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fca7bd64d372e3bcb3f4633ca4a20291ff57de3c3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Is-ChatGPT-a-Good-Recommender-A-Preliminary-Study-Liu-Liu/ca7bd64d372e3bcb3f4633ca4a20291ff57de3c3) |
 | arxiv 202303 | Chat-REC | [Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System](https://arxiv.org/pdf/2303.14524.pdf) |  Enhong Chen           | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F0cfdd655100055f234fd23ebecd915504b8e00e3%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Chat-REC%3A-Towards-Interactive-and-Explainable-Gao-Sheng/0cfdd655100055f234fd23ebecd915504b8e00e3) |
 
+<p id="Full-Rank"></p>
 
-### Grouding
+### Full Rank
 | Source | Name | Title                                                         | Group                 | Citation |
 | ------ | ---- | ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
+| arxiv 202312 | LC-Rec | [Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation](https://arxiv.org/pdf/2311.09049.pdf) |  Xin Zhao & Jirong Wen               | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F9d2c9a7c3ff8f760b43fdd6a7082069a467c8956%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Adapting-Large-Language-Models-by-Integrating-for-Zheng-Hou/9d2c9a7c3ff8f760b43fdd6a7082069a467c8956) |
 | arxiv 202310 | TransRec | [A Multi-facet Paradigm to Bridge Large Language Model and Recommendation](https://arxiv.org/pdf/2310.06491v1.pdf) | Tat-Seng Chua                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F6887b37bab9bc67910e435c13d0ca545da4dd3ba%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/A-Multi-facet-Paradigm-to-Bridge-Large-Language-and-Lin-Wang/6887b37bab9bc67910e435c13d0ca545da4dd3ba) |
 | arxiv 202308 | BIGRec | [A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems](https://arxiv.org/pdf/2308.08434.pdf) | Xiangnan He                | [![citation](https://img.shields.io/badge/dynamic/json?label=cite&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Faae1d88c70cf18ef6aa23693a4dce8204e22d087%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/A-Bi-Step-Grounding-Paradigm-for-Large-Language-in-Bao-Zhang/aae1d88c70cf18ef6aa23693a4dce8204e22d087) |
 
